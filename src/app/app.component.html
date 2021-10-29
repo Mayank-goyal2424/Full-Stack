@@ -1,0 +1,48 @@
+<br/><h1> <u>CLass Work</u> </h1> <br/><br/><br/><br/><br/>  <hr/>
+  <!-- Welcome {{username}} , Bank Name is {{bankName}}
+  
+  
+  <br/>{{1+1}}
+  <br/>{{username.toUpperCase()}}
+  <br/>{{(balance>1000)?"Good Amount":"Less Amount"}}
+  <br/>{{bankInfo.bankName}}
+  <br/>{{bankArr[0].bankName}}
+  
+  Enter Fund t/f Amount  <input type="text" id="fund101" [disabled]="status"  #x/>
+
+
+  <input type="button" (click)="doThis(x.value)" value="Do Action"/> -->
+
+  <br/>
+  <h1>Add Two Numbers</h1>
+  <br/>
+  Enter Input 1 <input type="text" id="add101" [disabled]="status"  #a/>
+  <br/>
+  Enter Input 2 <input type="text" id="add102" [disabled]="status"  #b/>
+  <input type="button" (click)="doAdd(a.value,b.value)" value="Do Action"/>
+  <br/>
+  <h3>Output: {{sum}} </h3>
+  <br/>
+  Enter Input 1 <input type="text" id="mul103" [disabled]="status"  #z/>
+  <input type="button" (click)="doDiv(z.value)" value="Do Action"/>
+  <br/>
+  <table>
+    <tr *ngFor="let a of arr1">
+      <td>{{a}}</td>
+    </tr>
+  </table>
+  <br/>
+
+
+
+
+
+<!--    
+  var fund = document.getElementById("fund101");  #fund
+  passtoAction(fund.value)
+-->
+
+
+
+
+<br/><br/><br/><br/><br/>  <hr/>
